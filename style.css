@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    margin: auto;
+    height: auto;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('./image/library.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+}
+
+header {
+    width: 80%;
+    margin: auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+}
+
+.nav-item {
+    list-style: none;
+    display: none;
+    position: absolute;
+    top: 90px;
+    right: 10%;
+    text-align: right;
+}
+
+.list-item a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 800;
+    background: #850F8D;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.toggle-btn {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.active {
+    display: block;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    padding: 50px 0;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.welcome-text {
+    width: 100%;
+    max-width: 550px;
+    font-size: 60px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+span {
+    color: #850F8D;
+}
+
+.text {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.btn {
+    width: 100%;
+    max-width: 300px;
+    margin: 20px auto;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 15px 30px;
+    border-radius: 8px;
+    background: #850F8D;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-size: 11px;
+    padding: 30px 0;
+    color: #850F8D;
+}
+
+
+@media(min-width: 700px) {
+    .welcome-text {
+        max-width: 500px;
+    }
+  
+}

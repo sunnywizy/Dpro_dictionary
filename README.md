@@ -6,4 +6,11 @@ The user-friendly interface of Dpro Dictionary is designed with simplicity and e
 ## Purpose
 An online platform for searching English words with ease and efficiency.
 
+## Program Language
+**HTML**
+**CSS**
+**JavaScript**
 
+## Team Member
+**Obasi Sunday**
+**Samuel Eniola**

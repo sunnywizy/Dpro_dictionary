@@ -7,10 +7,10 @@ The user-friendly interface of Dpro Dictionary is designed with simplicity and e
 An online platform for searching English words with ease and efficiency.
 
 ## Program Language
-**HTML**
-**CSS**
-**JavaScript**
+*HTML
+*CSS
+*JavaScript
 
 ## Team Member
-**Obasi Sunday**
-**Samuel Eniola**
+*Obasi Sunday
+*Samuel Eniola
